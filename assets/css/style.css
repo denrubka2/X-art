@@ -1,0 +1,129 @@
+:root {
+  position: relative;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+}
+
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  max-height: 100%;
+}
+
+
+button {
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+  margin: 0;
+}
+
+iframe {
+  border: none;
+}
+
+/*
+Доступно скрываю элементы
+*/
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+body {
+  min-height: 100vh;
+  background-image: radial-gradient(49% 81% at 51% 37%, #997a9dff 1%, #073AFF00 100%),radial-gradient(50% 91% at 53% -40%, #eecec9FF 27%, #FF000000 99%),linear-gradient(21deg, #2d406d 15%, #FF000000 99%),linear-gradient(340deg, #2d406d 15%, #FFFFFFFF 100%);
+  background-attachment: fixed;
+  line-height: 1.4;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section__title {
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1;
+  padding: 13px 30px;
+  background: #000000;
+  color: #FFFFFF;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  transition: all .2s linear;
+}
+
+.btn:hover {
+  background: transparent;
+  border-color: #000000;
+  color: #000000;
+}
+
+.btn--outlined {
+  border-color: #000000;
+  background: transparent;
+  color: #000000;
+}
+
+.btn--outlined:hover {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.collapse:not(.show) {
+  display: none;
+}

@@ -1,0 +1,101 @@
+.hero {
+  color: #FFFFFF;
+}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 147px;
+  margin-bottom: 70px;
+}
+
+.hero__inner {
+  border-top: 1px solid rgba(224, 200, 194, .2);
+}
+
+.hero__info {
+  max-width: 640px;
+  padding: 40px 40px 40px 0;
+}
+
+.hero__info-title {
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.program-card {
+  background: #FFFFFF;
+  border-radius: 30px;
+  padding: 25px;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.program-card__title {
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.program-card__list {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.program-card__item {
+  padding: 2px 0;
+}
+
+.program-card__text {
+  margin-bottom: 30px;
+}
+
+.program-card__time {
+  text-align: center;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.program-card__timer {
+  display: flex
+;
+  justify-content: center;
+  gap: 10px;
+}
+
+.program-card__timer-item {
+  display: flex
+;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program-card__timer-number {
+  font-size: 28px;
+}
+
+.program-card__timer-text {
+  font-size: 15px;
+}
+
+.program-card__footer {
+  display: flex;
+  align-items: center;
+}
+
+.program-card__link {
+  font-size: 17px;
+  margin-right: 15px;
+  text-decoration: underline;
+}
+
+.program-card__start {
+  margin-left: auto;
+}
+
+.hero__content {
+  width: 100%;
+  max-width: 370px;
+  padding: 40px 0 40px 40px;
+  border-left: 1px solid rgba(224, 200, 194, .2);
+}
