@@ -21,7 +21,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: #000;
   background-color: #fff;
 }
@@ -126,4 +126,21 @@ body {
 
 .collapse:not(.show) {
   display: none;
+}
+
+.social-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  transition: all .2s linear;
+  margin-right: 50px;
+}
+
+.social-btn:hover {
+  color: #FFFFFF;
+  background: #000000;
 }
