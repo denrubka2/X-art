@@ -26,3 +26,43 @@
 .footer__info--license {
   padding-top: 20px;
 }
+
+@media (max-width: 1199px) {
+  .footer__email {
+    font-size: 32px;
+  }
+
+  .footer__info {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .footer__top {
+    border-bottom: none;
+  }
+
+  .footer__item {
+    border-bottom: 1px solid rgba(224, 200, 194, .2);
+    margin-bottom: 30px;
+  }
+
+  .footer__info {
+    padding-left: 0;
+    border-left: none;
+    margin-left: 0;
+  }
+
+  .footer__info--license {
+    padding-top: 0;
+  }
+
+  .footer__socials {
+    margin-bottom: 40px;
+  }
+
+  .footer__menu-item {
+    margin-bottom: 10px;
+  }
+
+}

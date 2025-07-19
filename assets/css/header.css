@@ -42,3 +42,22 @@
 .header__menu-link.active::before {
   opacity: 1;
 }
+
+@media (max-width: 575px) {
+  .header__wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .header__nav {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  .header .social-btn {
+    margin-right: 0;
+  }
+}

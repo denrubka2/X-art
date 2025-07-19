@@ -81,6 +81,8 @@
 .program-card__footer {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
 }
 
 .program-card__link {
@@ -98,4 +100,51 @@
   max-width: 370px;
   padding: 40px 0 40px 40px;
   border-left: 1px solid rgba(224, 200, 194, .2);
+}
+
+@media (max-width: 1199px) {
+  .hero__title {
+    font-size: 48px;
+  }
+
+  .hero__info-title {
+    font-size: 22px;
+  }
+
+  .hero__content {
+    font-size: 16px;
+  }
+
+  .program-card__title {
+    font-size: 22px;
+  }
+
+  .program-card {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero__info {
+    max-width: 100%;
+    padding-right: 0;
+  }
+
+  .hero__title {
+    font-size: 38px;
+  }
+
+  .hero__content {
+    border-top: 1px solid rgba(224, 200, 194, .2);
+    border-left: none;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .program-card__start {
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+  }
 }
